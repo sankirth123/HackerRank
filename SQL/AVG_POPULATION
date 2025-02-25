@@ -1,0 +1,20 @@
+/*
+Query the average population of all cities in CITY where District is California.
+
+Input Format
+
+The CITY table is described as follows:
+
+ID	NAME	DISTRICT	POPULATION
+1	Los Angeles	California	3,792,621
+2	San Diego	California	1,307,402
+3	San Francisco	California	805,235
+4	Fresno	California	494,665
+
+*/
+
+SELECT AVG(POPULATION) AS AVG_POPULATION
+FROM CITY 
+WHERE DISTRICT = 'CALIFORNIA';
+
+
